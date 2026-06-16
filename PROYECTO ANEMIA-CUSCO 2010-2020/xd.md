@@ -1,1 +1,83 @@
-xd
+# Proyecto6_Anemia_Cusco - 2010–2020
+
+
+*One-liner*: **“Identificamos patrones de anemia en Cusco para orientar políticas de salud pública.”**
+
+---
+
+## 1. Problema de Negocio
+El Gobierno Regional de Cusco enfrenta una alta incidencia de anemia en niños y adolescentes entre 2010 y 2020.  
+Los datos estaban dispersos y con errores de calidad, lo que dificultaba responder preguntas clave:  
+- ¿Qué provincias concentran más casos?  
+- ¿Qué grupos de edad son los más afectados?  
+- ¿La tendencia mejora o empeora con los años?  
+- ¿Qué establecimientos requieren mayor apoyo?  
+
+---
+
+## 2. Datos
+- **Fuente**: Dataset público del Gobierno Regional de Cusco  
+- **Tamaño**: ~X filas, 14 columnas  
+- **Descripción**: Casos de anemia y normales por edad, año, provincia, distrito y establecimiento de salud  
+- **Diccionario de datos**: `/docs/DiccionarioDatos_CasosdeAnemiaRegionCusco_Publicacion.xlsx`
+
+---
+
+## 3. Herramientas y Tecnologías
+- Power Query (ETL)  
+- Power BI (visualización)  
+- GitHub (portafolio y versionado)  
+
+---
+
+## 4. Proceso / Metodología
+1. **Limpieza**  
+   - Reemplazo de valores nulos en PROVINCIA, DISTRITO, COD_EESS, UBIGEO  
+   - Validación de sumas CASOS + NORMAL = TOTAL  
+   - Normalización de formatos y tipos de datos  
+
+2. **Análisis**  
+   - Creación de medidas:  
+     - Tasa de anemia = CASOS / TOTAL  
+     - Casos promedio por edad  
+     - Distribución por provincia  
+     - Tendencia anual 2010–2020  
+     - Ranking de establecimientos con más casos  
+
+3. **Visualización**  
+   - Gráficos:  
+     - Mapa geográfico por UBIGEO  
+     - Serie temporal de casos (2010–2020)  
+     - Barras por edad  
+     - Comparación CASOS vs NORMAL por provincia  
+     - Ranking de establecimientos de salud  
+
+---
+
+## 5. Hallazgos Clave / Insights
+1. Provincias con mayor prevalencia de anemia.  
+2. Grupos de edad más afectados en el periodo.  
+3. Tendencia temporal: evolución de la anemia en 10 años.  
+4. Establecimientos con más casos reportados.  
+
+---
+
+## 6. Recomendaciones / Impacto
+- Focalizar recursos en provincias críticas.  
+- Programas de prevención en edades más vulnerables.  
+- Monitoreo anual para evaluar impacto de políticas.  
+
+---
+
+## 7. Links
+- **Dashboard Interactivo**: [Power BI Link]  
+- **Código ETL (Power Query)**: `/etl/transformaciones.pq`  
+- **Dataset limpio**: `/data/dataset_limpio.csv`  
+
+---
+
+## 8. Cómo ejecutar el proyecto
+```bash
+1. Clona el repo
+2. Abre el archivo .pbix en Power BI
+3. Explora el dashboard con los filtros disponibles
