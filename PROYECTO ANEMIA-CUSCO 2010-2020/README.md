@@ -83,31 +83,29 @@ Los datos estaban dispersos y con errores de calidad, lo que dificultaba respond
    Distritos como **Sicuani, Wanchaq y Echarate** presentan cargas intermedias (5,000–6,000 casos), mientras que **Espinar, Santo Tomás, Ocongate y Anta** registran cifras menores, aunque igualmente relevantes.  
    Este hallazgo permite identificar **zonas críticas y zonas de vigilancia**, facilitando la priorización de recursos en salud pública.
 
-
 ---
 
 ## 6. Recomendaciones / Impacto
 
-1. **[Focalización territorial](ca://s?q=Recomendacion_focalizacion_territorial)**  
-   Priorizar intervenciones en las provincias críticas (**Cusco, La Convención y Quispicanchi**) y en las redes de salud **Cusco Sur y Cusco Norte**, que concentran más del 70% de los casos.  
+1. **[Focalización territorial]**  
+   Lo primero que se me ocurriría es priorizar intervenciones en las provincias críticas (**Cusco, La Convención y Quispicanchi**) y en las redes de salud **Cusco Sur y Cusco Norte**, que concentran más del 70% de los casos.  
 
-2. **[Programas dirigidos a grupos vulnerables](ca://s?q=Recomendacion_programas_para_grupos_vulnerables)**  
-   Reforzar campañas de suplementación y educación alimentaria en **niños y adolescentes (6, 12 y 18 años)**, principales grupos afectados.  
+2. **[Programas dirigidos a grupos vulnerables]**  
+   Para evitar más casos, se debe reforzar campañas de suplementación y educación alimentaria en **niños y adolescentes (6, 12 y 18 años)**, los cuales son los principales grupos afectados.  
 
-3. **[Fortalecimiento de la atención primaria](ca://s?q=Recomendacion_fortalecimiento_atencion_primaria)**  
+3. **[Fortalecimiento de la atención primaria]**  
    Mejorar la capacidad de diagnóstico temprano y tratamiento en los **centros de salud y distritos con mayor carga de casos** (Cusco, Santiago, San Sebastián, San Jerónimo).  
 
-4. **[Monitoreo y evaluación continua](ca://s?q=Recomendacion_monitoreo_y_evaluacion)**  
+4. **[Monitoreo y evaluación continua]**  
    Implementar sistemas de seguimiento anual para evaluar la evolución de la anemia y medir el impacto de las políticas de suplementación.  
 
-5. **[Redistribución de recursos](ca://s?q=Recomendacion_redistribucion_de_recursos)**  
+5. **[Redistribución de recursos]**  
    Optimizar la asignación de suplementos nutricionales, personal médico y campañas educativas hacia las zonas con mayor prevalencia, evitando una distribución uniforme que diluya el impacto.  
-
 
 ---
 
 ## 7. Links
-- **Dashboard Interactivo**: [Proyecto ANEMIA-CUSCO.pbix]  
+- **Dashboard Interactivo**: [DASHBOARD](Proyecto%ANEMIA-CUSCO.pbix)
 - **Código ETL (Power Query)**: `/etl/transformaciones.pq`  
 - **Dataset limpio**: `/data/dataset_limpio.csv`  
 
