@@ -107,7 +107,7 @@ Los datos estaban dispersos y con errores de calidad, lo que dificultaba respond
 ---
 
 ## 7. Links
-- **Dashboard Interactivo**: [Power BI Link]  
+- **Dashboard Interactivo**: [Proyecto ANEMIA-CUSCO.pbix]  
 - **Código ETL (Power Query)**: `/etl/transformaciones.pq`  
 - **Dataset limpio**: `/data/dataset_limpio.csv`  
 
