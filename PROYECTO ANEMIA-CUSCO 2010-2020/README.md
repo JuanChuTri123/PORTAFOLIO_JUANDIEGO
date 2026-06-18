@@ -52,7 +52,9 @@ Los datos estaban dispersos y con errores de calidad, lo que dificultaba respond
      - Gráfico de áreas por edad  
      - Comparación Casos con anemia vs Casos sin anemia, por provincia  
      - Embudo de los 15 distritos con más casos de anemia
-     - Sección de tablas para analizar a detalle 
+     - Sección de tablas para analizar a detalle
+
+![Imagen Dashboard principal!!](DashboardImage.jpg)
 ---
 
 ## 5. Hallazgos Clave / Insights
@@ -105,12 +107,14 @@ Los datos estaban dispersos y con errores de calidad, lo que dificultaba respond
 5. **Redistribución de recursos**  
    Optimizar la asignación de suplementos nutricionales, personal médico y campañas educativas hacia las zonas con mayor prevalencia, evitando una distribución uniforme que diluya el impacto.  
 
----
+<image src="DashboardTablas.jpg" alt="Descripción de la imagen">
+
+   ---
 
 ## 7. Links
 - **Dashboard Interactivo**: [DASHBOARD](Proyecto%ANEMIA-CUSCO.pbix)  
 - **Diccionario de datos**: [Data Dictionary - Anemia Cusco 2010-2020](DiccionarioDatos_ANEMIACUSCO.xlsx)  
-- **Fuente de datos**: https://www.datosabiertos.gob.pe/dataset/casos-de-anemia-por-edades-entre-los-a%C3%B1os-2010-2020-en-la-region-de-cusco
+- **Fuente de datos**: [Plataforma Nacional de Datos Abiertos](https://www.datosabiertos.gob.pe/dataset/casos-de-anemia-por-edades-entre-los-a%C3%B1os-2010-2020-en-la-region-de-cusco)
 ---
 
 ## 8. Cómo ejecutar el proyecto
@@ -119,8 +123,3 @@ Los datos estaban dispersos y con errores de calidad, lo que dificultaba respond
 2. Abre el archivo .pbix en Power BI.
 3. Explora el dashboard utilizando los filtros disponibles.
 4. Revisa las tablas para obtener información detallada del caso.
-
-![Imagen Dashboard principal!!](DashboardImage.jpg)
-
-<image src="DashboardImage.jpg" alt="Descripción de la imagen">
-
