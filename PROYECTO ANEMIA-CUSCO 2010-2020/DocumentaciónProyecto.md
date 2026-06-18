@@ -1,7 +1,7 @@
 # Proyecto6_Anemia_Cusco - 2010–2020
 
 
-*One-liner*: **“Identificamos patrones de anemia en Cusco para orientar políticas de salud pública.”**
+**“Identificamos patrones de anemia en Cusco para orientar políticas de salud pública.”**
 
 ---
 
